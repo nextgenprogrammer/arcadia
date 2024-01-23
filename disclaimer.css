@@ -1,0 +1,141 @@
+.disclaimer-container{
+    margin: auto;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+.disclaimer-buttons{
+    display: flex;
+}
+
+.dis-button{
+    padding:20px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    height: 30px;
+}
+
+
+.disclaimer-container {
+    padding-top: 50px;
+    line-height: 50px;
+    height: 400px;
+    text-align: center;
+  }
+
+  .disclaimer-buttons{
+    width: 100%;
+  }
+  
+.disclaimer-text {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align:middle;
+  }
+
+  .dis-button {
+    width: 180px;
+    height: 70px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    align-items: center;
+    width: 100%;
+  }
+
+  #Accept-Button{
+    width: 180px;
+    height: 70px;
+    line-height: 80px;
+    padding: 0;
+    border: none;
+    background: #7ab04a;
+    padding-left:40% ;
+  }
+  #Accept-Button:hover {
+    color: #7ab04a;
+    background: transparent;
+     box-shadow:none;
+  }
+  #Accept-Button:before,
+  #Accept-Button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #7ab04a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  #Accept-Button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  #Accept-Button:hover:before,
+  #Accept-Button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+
+
+  #Decline-Button {
+    width: 180px;
+    height: 70px;
+    line-height: 80px;
+    padding: 0;
+    border: none;
+    background: rgb(255,27,0);
+    padding-right:40% ;
+  }
+  #Decline-Button:hover {
+    color: #f0094a;
+    background: transparent;
+    box-shadow:none;
+  }
+  #Decline-Button:before,
+  #Decline-Button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f0094a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  #Decline-Button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  #Decline-Button:hover:before,
+  #Decline-Button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
